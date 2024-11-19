@@ -63,7 +63,7 @@ USER_REPLY_TEXT = "ᴀʀᴀ!! ᴀʀᴀ!! ɪᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ғᴏʀ 
 
 START_MSG = os.environ.get("START_MESSAGE", "ᴋᴏɴɪᴄʜɪᴡᴀ {mention}\n\n ᴋᴏɴɪᴄʜɪᴡᴀ ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴀɴɪᴍᴇ /ᴍᴏᴠɪᴇ ғɪʟᴇs ɪɴ @Anime_Weekends ᴄʜᴀɴɴᴇʟ  ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ. .")
 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ʙᴀᴋᴀ!!{mention}\n\n<b> ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ In My ᴄʜᴀɴɴᴇʟ/ɢʀᴏᴜᴘ ᴛᴏ ᴜsᴇ ᴍᴇ\n\nKindly ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ᴀʀᴀ ᴀʀᴀ!! {mention}\n\n<b> sᴏ ᴡʜᴀᴛ’s ᴡʀᴏɴɢ ᴡɪᴛʜ ᴛʜᴀᴛ? ɪ ʙᴇᴄᴀᴍᴇ ᴛʜᴇ sᴛᴜᴅᴇɴᴛ ᴄᴏᴜɴᴄɪʟ ᴘʀᴇsɪᴅᴇɴᴛ ᴛᴏ ᴡɪɴ ᴛʜᴇ ʜᴇᴀʀᴛ ᴏғ ᴛʜᴇ ɢɪʀʟ ɪ ʟᴏᴠᴇ. ᴀ ʀᴇᴀsᴏɴ ғᴀʀ ᴍᴏʀᴇ ɪᴍᴘʀᴏᴘᴇʀ ᴛʜᴀɴ ᴀɴʏ ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ.\n\nKindly ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</b>")
 
 
 
