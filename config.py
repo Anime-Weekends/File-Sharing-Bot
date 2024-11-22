@@ -14,9 +14,9 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6266529037"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://drapixstore:Y7DJWJCCpBQClI5o@cluster0.fq7ee6x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
-START_PIC = os.environ.get("START_PIC", "")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/G7g.jpg")
 
-FORCE_PIC = os.environ.get("FORCE_PIC", "")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/G7f.jpg")
 
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002437344784"))
