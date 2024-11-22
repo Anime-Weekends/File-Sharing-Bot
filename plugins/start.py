@@ -188,7 +188,7 @@ async def send_text(client: Bot, message: Message):
         blocked = 0
         deleted = 0
         unsuccessful = 0
-        
+
         pls_wait = await message.reply("<i>Broadcasting Message.. This will Take Some Time</i>")
         for chat_id in query:
             try:
@@ -208,11 +208,17 @@ async def send_text(client: Bot, message: Message):
                 unsuccessful += 1
                 pass
             total += 1
-        
-        status = f"""<b><u>Broadcast Completed</u></b>
 
-<b>Total Users :</b> <code>{total}</code>
-<b>Successful :</b> <code>{successful}</code>
-<b>Blocked Users :</b> <code>{blocked}</code>
-<b>Deleted Accounts :</b> <code>{deleted}</code>
-<b>Unsuccessful :</b>
+        status = f"""<b><u>ʙʀᴏᴀᴅᴄᴀꜱᴛ...</u></b>
+
+<b>Total Users:</b> <code>{total}</code>
+<b>Successful:</b> <code>{successful}</code>
+<b>Blocked Users:</b> <code>{blocked}</code>
+<b>Deleted Accounts:</b> <code>{deleted}</code>
+<b>Unsuccessful:</b> <code>{unsuccessful}</code>
+"""
+        await pls_wait.edit(status)
+    else:
+        msg = await message.reply(REPLY_ERROR)
+        await asyncio.sleep(8)
+        await msg.delete()
