@@ -101,12 +101,12 @@ async def start_command(client: Client, message: Message):
 
         k = await client.send_message(
             chat_id=message.from_user.id,
-            text=f"<b>❗️ <u>ɪᴍᴘᴏʀᴛᴀɴᴛ</u> ❗️</b>\n\n"
+            text=f"<b>❤ Be Aware ❤</b>\n\n"
                  f"ᴛʜɪs ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ {file_auto_delete} "
                  f"(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs).\n\n"
-                 f"📌 ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴏᴍᴇᴡʜᴇʀᴇ ᴇʟsᴇ ᴀɴᴅ sᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.\n\n"
-                 f" 🫧ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ ᴊᴏɪɴ @Anime_Weekends🫧.\n\n"
-                 f" 🫧ғᴏʀ ᴀɴɪᴍᴇ ʀᴇǫᴜᴇsᴛ ᴏʀ ᴀɴʏ ʙᴜɢ 👾 @Weebs_Weekends🫧."
+                 f"😟 ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴠɪᴅᴇᴏ / ғɪʟᴇ ᴛᴏ sᴏᴍᴇᴡʜᴇʀᴇ ᴇʟsᴇ ᴀɴᴅ sᴛᴀʀᴛ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇʀᴇ.\n\n"
+                 f"🩶 @Anime_Weekends 🩶.\n\n"
+                 f"🩶 @Weebs_Weekends 🩶."
         )
 
         # Schedule the file deletion
